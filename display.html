@@ -1,0 +1,15 @@
+<html>
+<script type="text/javascript">
+	function f(){
+		localStorage.setItem("visited",1);
+		var data=localStorage.getItem(localStorage.getItem("currimg"));
+		console.log(data.Search);
+	}
+</script>
+
+<!-- Redirection page -->
+<body onload="f()">
+	<p>Redirection</p>
+	<a href="Frontpage.html">Back to search page</a>
+</body>
+</html>
